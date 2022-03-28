@@ -3,12 +3,12 @@ title: "The Documentation VxRail"
 date: 2022-03-28T22:55:27+09:00
 draft: false
 author: "Dokyung"
-description: "VASN RAID-5, RAID-6"
+description: "VxRail"
 resources:
 - name: "featured-image"
   src: "VxRail-7.0-1.jpg"
 
-tags: ["vsan","Erasure Coding RAID-5/RAID-6","dk","dokyung"]
+tags: ["VxRail","HCI","dk","dokyung"]
 categories: ["Documentation"]
 
 lightgallery: true
@@ -202,3 +202,6 @@ python vxm_backup_restore.py -l
 ## Recovery 실행
 python vxm_backup_restore.py -r –-vcenter 192.168.215.10
 ```
+
+
+

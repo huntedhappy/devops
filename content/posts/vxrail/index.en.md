@@ -3,12 +3,12 @@ title: "The Documentation VxRail"
 date: 2022-03-28T22:55:22+09:00
 draft: false
 author: "Dokyung"
-description: "VASN RAID-5, RAID-6"
+description: "VxRail"
 resources:
 - name: "featured-image"
   src: "VxRail-7.0-1.jpg"
 
-tags: ["vsan","Erasure Coding RAID-5/RAID-6","dk","dokyung"]
+tags: ["VxRail","HCI","dk","dokyung"]
 categories: ["Documentation"]
 
 lightgallery: true
