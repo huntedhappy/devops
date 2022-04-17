@@ -8,7 +8,7 @@ resources:
 - name: "featured-image"
   src: "1-1.jpg"
 
-tags: ["nap","tanzu","k8s","devops","dk","dokyung"]
+tags: ["network","l2","l3","l4","osi 7layer","tcp","vxlan","geneve","dk","dokyung"]
 categories: ["Documentation"]
 
 lightgallery: true
