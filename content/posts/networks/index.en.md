@@ -8,7 +8,7 @@ resources:
 - name: "featured-image"
   src: "1-1.jpg"
 
-tags: ["network","l2","l3","l4","osi 7layer","tcp","vxlan","geneve","vmware","nsxt","dk","dokyung"]
+tags: ["network","l2","l3","l4","osi 7layer","tcp","vxlan","vxlan header","geneve","geneve header","ip header","ethernet header","Ethernet Frame","tpc/ip header","vmware","nsxt","https","tls","dk","dokyung"]
 categories: ["Documentation"]
 
 lightgallery: true
@@ -294,13 +294,13 @@ L3라우터의 경우 IP N/W을 통해 라우팅 경로(라우팅 경로라고 �
 
 
 ## 4. HTTPS 이야기
-HTTPS는 공개키와 비공개키를 사용한다. 이유는 공개키는 비공개키보다 암/복호화 하는대 더 많은 트래픽이 필요 하기 때문에 공개키로 비공개키를 암호화하여 비공개키를 안전하고 전달 후 비공개키를 통해 데이터를 전달한다. 
+HTTPS는 공개키와 비공개키를 사용한다. 이유는 공개키는 비공개키보다 암/복호화 하는대 더 많은 트래픽이 필요 하기 때문에 공개키로 비공개키를 암호화하여 비공개키를 안전하게 전달 후 비공개키를 통해 데이터를 전달한다. 
 
 {{< figure src="/images/network/5-1.png" title="HTTPS 이야기" >}}
 {{< figure src="/images/network/5-2.png" title="HTTPS 이야기" >}}
 {{< figure src="/images/network/5-3.png" title="HTTPS 이야기" >}}
 
-1. 클라이언 헬로우겠죠 : < sslversion, random number, cipersuites, session id 포함>
+1. 클라이언 헬로우 : < sslversion, random number, cipersuites, session id 포함>
    * ciphersuites 복수인 이유는 클라이언트에서 어떤 암호화 프로토콜이 있는지 서버에게 알려주게 된다.
 
 2. 서버 헬로우 : < sslversion, random number, ciphersuit, session id 포함 >
